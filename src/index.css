@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Work+Sans:wght@200&display=swap');
+h1, h2, h3, h4, h5, h6, label, button, .btn, small, body, p, span, Link {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:400;
+}
+h5.indent {
+    margin: 10px;
+}
+ol, ol.li {
+    margin:0;
+    padding:20px;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgray;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgray;
+ }
+mark.linespacing {
+    line-height: 1.5;
+}
+button.removebutton {
+    background: none;
+    color: #000;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.input-group {
+    text-align: center;
+}
+.outter {
+    max-width: 1000px;
+}
+input[type=checkbox], input[type=radio]
+{
+  width:30px;
+  height:30px;
+  vertical-align: middle;
+}
+.middle {
+    vertical-align: middle;
+}
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+.removebutton:hover {
+    text-decoration: underline;
+    text-shadow: 0.3px 0.3px;
+}
+.logofont {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size:20pt;
+    margin:0;
+}
+.logofont2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20pt;
+    margin: 0;
+}
+.blackborder {
+    border: 2px solid black;
+    background:#fff;
+}
+.rounded {
+    border-radius: 10px;
+}
+.cartitem:nth-child(even) {
+    background-color: #f5f5f5;
+    border-radius:10px;
+}
+.btn {
+    font-weight:500;
+}
+input, textarea, .qtyselectordisplay {
+    font-weight: 900;
+}
+.qtyselectordisplay {
+    text-align: center;
+    width: 40px;
+}
+body {
+    background: lightgray;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
